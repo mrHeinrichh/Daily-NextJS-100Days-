@@ -1,6 +1,7 @@
 // app/page.tsx
 "use client"
 import React, { useEffect, useState } from "react";
+import './globals.css';
 
 const Page: React.FC = () => {
   const [SignUpComponent, setSignUpComponent] = useState<React.FC | null>(
